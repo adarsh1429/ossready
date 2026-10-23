@@ -1,0 +1,3 @@
+# Shows a "Sponsor" button on the repository. Replace OWNER with your GitHub username
+# once GitHub Sponsors is set up, or use another platform: https://docs.github.com/articles/displaying-a-sponsor-button-in-your-repository
+github: [OWNER]

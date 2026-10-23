@@ -1,0 +1,34 @@
+name: Bug report
+description: Something ossready got wrong or crashed on.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Include the command you ran and the output.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ossready version
+      description: Output of `ossready --version`.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Operating system and Python version
+      placeholder: e.g. Ubuntu 24.04, Python 3.12
+  - type: input
+    id: repository
+    attributes:
+      label: Public repository that reproduces it (optional)

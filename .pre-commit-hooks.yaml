@@ -1,0 +1,7 @@
+- id: ossready
+  name: ossready
+  description: Check that the repository is ready to be published and maintained as open source.
+  entry: ossready check
+  language: python
+  pass_filenames: false
+  always_run: true
