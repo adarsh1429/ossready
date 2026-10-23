@@ -42,9 +42,9 @@ dev = ["pytest>=7", "ruff>=0.6", "pyyaml>=6"]
 ossready = "ossready.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/OWNER/ossready"
-Issues = "https://github.com/OWNER/ossready/issues"
-Changelog = "https://github.com/OWNER/ossready/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/adarsh1429/ossready"
+Issues = "https://github.com/adarsh1429/ossready/issues"
+Changelog = "https://github.com/adarsh1429/ossready/blob/main/CHANGELOG.md"
 
 [tool.setuptools.dynamic]
 version = { attr = "ossready.__version__" }

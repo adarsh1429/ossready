@@ -8,7 +8,7 @@ are all welcome.
 You need Python 3.9 or newer and git.
 
 ```bash
-git clone https://github.com/OWNER/ossready.git
+git clone https://github.com/adarsh1429/ossready.git
 cd ossready
 python -m venv .venv
 source .venv/bin/activate        # on Windows: .venv\Scripts\activate

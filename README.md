@@ -60,7 +60,7 @@ request. ossready turns that checklist into one command that runs in seconds.
 ## Installation
 
 ```bash
-pip install git+https://github.com/OWNER/ossready.git
+pip install git+https://github.com/adarsh1429/ossready.git
 ```
 
 Or from a clone: `pip install .`
@@ -189,7 +189,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0   # lets the releases check see your tags
-      - uses: OWNER/ossready@v0.2.0
+      - uses: adarsh1429/ossready@v0.2.0
         with:
           fail-under: 80
 ```
@@ -210,7 +210,7 @@ Outputs: `score`, `grade` and `badge` (Markdown for a shields.io badge).
 ```yaml
 # .pre-commit-config.yaml
 repos:
-  - repo: https://github.com/OWNER/ossready
+  - repo: https://github.com/adarsh1429/ossready
     rev: v0.2.0
     hooks:
       - id: ossready
